@@ -354,6 +354,10 @@ footer .icons i{
         margin-top: 40px;
     }
 
+    footer{
+        width: 540px;
+    }
+
 }
 
 @media (min-width: 541px) and (max-width: 912px){
@@ -410,6 +414,10 @@ footer .icons i{
 
     #bonus-part .main .item{
         margin-top: 40px;
+    }
+
+    footer{
+        width: 912px;
     }
 }
 /* ===============RESPONSIVE CSS ENDS HERE=============== */
