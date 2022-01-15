@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul, ol{
+    list-style: none;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  .container{
+    width: 1320px;
+    margin: 0 auto;
+  }
+  
+  .main{
+    display: flex;
+  }
+  
+  .title{
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* ===============HEADER PART CSS STARTS HERE=============== */
+header{
+    padding-top: 57px;
+}
+
+header h2{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color:#3A3A3A;
+}
+/* ===============HEADER PART CSS ENDS HERE=============== */
+
+
+
+
+
+
+/* ===============JOURNEY PART CSS STARTS HERE=============== */
+#journey-part{
+    margin-top:100px;
+}
+
+#journey-part .text{
+    width: 60%;
+    padding-top: 85px;
+}
+
+#journey-part .text h1{
+    font-size: 52px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color:#3A3A3A;
+    line-height: -10%;
+}
+
+#journey-part .text p{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color:#3A3A3A;
+    margin-top: 15px;
+    
+}
+
+#journey-part .text a{
+   background: #0984e3;
+   color: #fff;
+   padding: 10px 25px;
+   font-size: 16px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   border-radius: 20px;
+   display: inline-block;
+   margin-top: 30px;
+}
+
+#journey-part .image{
+    width: 40%;
+}
+
+#journey-part .image img{
+    width: 100%;
+}
+/* ===============JOURNEY PART CSS ENDS HERE=============== */
+
+
+
+
+
+
+/* ===============COLLECTION PART CSS STARTS HERE=============== */
+article{
+    /* background: red; */
+    margin-top: 100px;
+}
+
+article .items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+article .items .card{
+    width: 320px;
+    /* height: 470px; */
+    padding: 10px 10px 15px 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    /* background: cyan; */
+    -webkit-box-shadow: 0px -1px 28px 2px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px -1px 28px 2px rgba(0,0,0,0.35);
+    box-shadow: 0px -1px 28px 2px rgba(0,0,0,0.35);
+} 
+
+article .items .card h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 20px;
+} 
+
+article .items .card h4{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 10px;
+} 
+
+article .items .card .rating{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+} 
+
+article .items .card .rating i{
+    color: #FB8200;
+    font-size: 12px;
+    padding-right: 2px;
+} 
+
+article .items .card .rating p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 5px;
+} 
+
+article .items .card>p{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color:#787885;
+} 
+
+#for-margin{
+    margin-top: 10px;
+}
+
+
+/* ===============COLLECTION PART CSS ENDS HERE=============== */
+
+
+
+
+
+
+
