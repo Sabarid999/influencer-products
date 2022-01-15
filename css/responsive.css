@@ -1,0 +1,26 @@
+@media (max-width: 540px) {
+    body{
+        background: cyan;
+    }
+
+    header{
+        text-align: center;
+    }
+    
+    #journey-part .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+     #journey-part .text{
+         display: flex;
+         flex-direction: column;
+         text-align: center;
+         align-items: center;
+    }
+
+    /* #journey-part .image{
+        width: 100%;
+   }  */
+}
