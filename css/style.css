@@ -285,6 +285,7 @@ footer .icons i{
     border: transparent;
     border-radius: 50%;
     margin-top: 10px;
+    cursor: pointer;
 }
 /* ===============FOOTER PART CSS ENDS HERE=============== */
 
