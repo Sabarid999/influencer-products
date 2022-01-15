@@ -88,10 +88,22 @@ header h2{
 
 #journey-part .image{
     width: 40%;
+    transition: .4s;
 }
 
 #journey-part .image img{
     width: 100%;
+    transition: .4s;
+}
+
+#journey-part .image:hover{
+    border-radius: 50%;
+    border: 1px solid gray;
+    background: #0984e3;
+}
+
+#journey-part .image:hover img{
+    transform: rotate(360deg);
 }
 /* ===============JOURNEY PART CSS ENDS HERE=============== */
 
@@ -195,6 +207,49 @@ article a{
 
 
 
+/* ===============BONUS PART CSS STARTS HERE=============== */
+#bonus-part{
+    margin-top: 150px;
+}
+
+#bonus-part .main{
+    justify-content: space-around;
+}
+
+#bonus-part .main .item{
+    text-align: center;
+}
+
+#bonus-part .main .item i{
+    font-size: 60px;
+    color: #939799;
+    margin-bottom: 10px;
+}
+
+#bonus-part .main .item h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+#bonus-part .main .item a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#bonus-part .main .item a:visited{
+    color: black;
+}
+
+/* ===============BONUS PART CSS ENDS HERE=============== */
+
+
+
+
+
+
 /* ===============FOOTER PART CSS STARTS HERE=============== */
 footer{
     height: 240px;
@@ -202,7 +257,7 @@ footer{
     text-align: center;
     padding: 40px 0;
     box-sizing: border-box;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 footer h2{
