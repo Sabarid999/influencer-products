@@ -1,16 +1,25 @@
 @media (max-width: 540px) {
+   
+
     body{
         background: cyan;
+        
     }
 
     header{
-        text-align: center;
+        padding-left: 180px;
+    }
+
+    #journey-part{
+        
     }
     
     #journey-part .main{
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 600px;
+        justify-content: center;
     }
 
      #journey-part .text{
@@ -20,7 +29,72 @@
          align-items: center;
     }
 
-    /* #journey-part .image{
+    #journey-part .image{
         width: 100%;
-   }  */
+    }
+
+    #journey-part .image img{
+        padding-top: 50px;
+        width: 150% !important;
+        margin-left: -50px;
+    }
+
+
+    
+
+    
+
+    article .title{
+        text-align: start;
+        padding-left: 180px;
+    }
+
+    article .items{
+        grid-template-columns: 1fr;
+        grid-template-rows: 9fr;
+        grid-gap: 30px;
+        justify-content: center;
+
+    }
+
+
+
+    /* display: grid;
+    grid-template-columns: 320px 320px 320px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    justify-content: center; */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

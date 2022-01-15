@@ -287,3 +287,129 @@ footer .icons i{
     margin-top: 10px;
 }
 /* ===============FOOTER PART CSS ENDS HERE=============== */
+
+
+
+
+
+
+/* ===============RESPONSIVE CSS STARTS HERE=============== */
+@media (max-width: 540px) {
+   
+
+      
+    .container{
+        width: 540px;
+        margin: 0 auto;
+    }
+  
+    /* body{
+        background: cyan;
+    } */
+
+    header{
+        text-align: center;
+    }
+    
+    #journey-part .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+     #journey-part .text{
+         display: flex;
+         flex-direction: column;
+         text-align: center;
+         align-items: center;
+    }
+
+    #journey-part .image{
+        width: 100%;
+        text-align: center;
+    }
+
+    #journey-part .image img{
+        padding-top: 50px;
+        width: 70% !important;
+    }
+
+    article .title{
+        text-align: center;
+    }
+
+    article .items{
+        grid-template-columns: 320px;
+        grid-template-rows: 9fr;
+        justify-content: center;
+    }
+
+    #bonus-part .main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #bonus-part .main .item{
+        margin-top: 40px;
+    }
+
+}
+
+@media (min-width: 541px) and (max-width: 912px){
+    /* body{
+        background: red;
+    } */
+
+    .container{
+        width: 912px;
+    }
+
+    header{
+        text-align: center;
+    }
+    
+    #journey-part .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+     #journey-part .text{
+         display: flex;
+         flex-direction: column;
+         text-align: center;
+         align-items: center;
+    }
+
+    #journey-part .image{
+        text-align: center;
+        width: 100%;
+    }
+
+    #journey-part .image img{
+        padding-top: 50px;
+        width: 50% !important;
+    }
+
+    article .title{
+        text-align: center;
+    }
+
+    article .items{
+        grid-template-columns: 320px 320px;
+        grid-template-rows: 5fr;
+        justify-content: center;
+    }
+
+    #bonus-part .main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #bonus-part .main .item{
+        margin-top: 40px;
+    }
+}
+/* ===============RESPONSIVE CSS ENDS HERE=============== */
